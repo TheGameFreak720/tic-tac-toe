@@ -43,6 +43,7 @@ $(document).ready(function(){
             if (move === '#') {
                 $('#' + computersMove).text(computersTurn);
                 taken = true;
+                $(`#${computersMove}`).css("backgroundColor", "#e74c3c");
                 turns[computersMove] = computersTurn
             }
         }
@@ -54,6 +55,7 @@ $(document).ready(function(){
         if (spotTaken === '#') {
             count++;
             turns[id] = turn;
+            $(`#${id}`).css("backgroundColor", "#e74c3c");
             $('#' + id).text(turn);
             winCondition(turns, turn);
             if (gameOn === false) {

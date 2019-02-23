@@ -1,0 +1,45 @@
+html { 
+    font-size: 62.5%; 
+}
+
+h1 { 
+    font-size: 2.4rem; /* =24px */
+} 
+
+h2 {
+    font-size: 2.0rem;
+}
+
+main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 25px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.display {
+    margin-bottom: 60px;
+}
+
+.display-button {
+    background-color: #e74c3c;
+}
+
+.taken {
+    background-color: #34495e;
+}
