@@ -18,16 +18,16 @@ $(document).ready(function(){
     $('#turnX').click(function() {
         turn = 'O';
         computersTurn = 'X';
-        $('#turnX').removeClass('btn-primary');
-        $('#turnO').addClass('btn-primary');
+        $(`#turnX`).css("backgroundColor", "#e74c3c");
+        $(`#turnO`).css("backgroundColor", "#2980b9");
         reset();
     });
 
     $('#turnO').click(function() {
         turn = 'X';
         computersTurn = 'O';
-        $('#turnO').removeClass('btn-primary');
-        $('#turnX').addClass('btn-primary');
+        $(`#turnO`).css("backgroundColor", "#e74c3c");
+        $(`#turnX`).css("backgroundColor", "#2980b9");
         reset();
     });
 
