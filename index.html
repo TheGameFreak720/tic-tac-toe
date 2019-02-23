@@ -4,37 +4,35 @@
     <meta charset="UTF-8">
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+    
 </head>
 <body>
-    <div class="container text-center">
-        <a class="btn btn-primary" id="turnX">Turn X</a>
-        <a class="btn btn-secondary" id="turnO">Turn O</a>
-
-        <div class="row">
-            <div class="col-md-6">
-                <a class="btn btn-primary tic" id="0">#</a>
-                <a class="btn btn-primary tic" id="1">#</a>
-                <a class="btn btn-primary tic" id="2">#</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <a class="btn btn-primary tic" id="3">#</a>
-                <a class="btn btn-primary tic" id="4">#</a>
-                <a class="btn btn-primary tic" id="5">#</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <a class="btn btn-primary tic" id="6">#</a>
-                <a class="btn btn-primary tic" id="7">#</a>
-                <a class="btn btn-primary tic" id="8">#</a>
-            </div>
-        </div>
-    </div>
+    <header>
+        <h1>Tic-Tac-Toe</h1>
+        <h2>FCC Project</h2>
+    </header>
+    <main>
+        <section class="flex-container">
+            <button class="btn" id="turnX">Turn X</button>
+            <button class="btn" id="turnO">Turn O</button>
+        </section>
+        <section class="flex-container">
+            <button class="btn tic" id="0">#</button>
+            <button class="btn tic" id="1">#</button>
+            <button class="btn tic" id="2">#</button>
+        </section>
+        <section class="flex-container">
+            <button class="btn tic" id="3">#</button>
+            <button class="btn tic" id="4">#</button>
+            <button class="btn tic" id="5">#</button>
+        </section>
+        <section class="flex-container">
+            <button class="btn tic" id="6">#</button>
+            <button class="btn tic" id="7">#</button>
+            <button class="btn tic" id="8">#</button>
+        </section>
+    </main>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
 </html>
