@@ -112,6 +112,7 @@ $(document).ready(function(){
     function reset() {
         turns = ['#', '#', '#', '#', '#', '#', '#', '#', '#'];
         count = 0;
+        $(`.tic`).css("backgroundColor", "#3498db");
         $('.tic').text('#');
         gameOn = false;
     }
